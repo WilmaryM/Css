@@ -1,0 +1,12 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/imagenes/9.jpg");
+    /* background-position: ; */
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    background-color: #4f1eff;
+}

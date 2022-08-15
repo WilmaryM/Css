@@ -1,0 +1,139 @@
+------------------------------------------------------- CSS  ------------------------------------------------------------------------
+
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+}
+
+div.contenedor.descendiente p{
+    background-color: #fdffb6;
+}
+
+div.contenedor.hijo > p{
+    background-color: #ffc6ff;
+}
+
+div.contenedor.adyacentes + p {
+    background-color:#caffbf ;
+}
+
+div.contenedor.hermano ~ p{
+    background-color: #9bf6ff;
+}
+
+   -------- <title>Pseudo en CSS</title>-------
+
+div.contenedor:hover{
+    background-color: #457b9d;
+    color: #f1faee;
+
+}
+
+div.contenedor.oculto p{
+    display: none;
+}
+
+div.contenedor.oculto:hover p{
+   display: block;
+   background-color:#a8dadc ;
+   color: #023e8a;
+   padding: 15px;
+}
+
+div.contenedor.primer p:first-child{
+    font-variant: small-caps;
+}
+
+
+
+---- <title>Pseudo elemntos en CSS</title>---
+
+div.contenedor p::selection{
+    background-color: yellow;
+    color: red;
+}
+
+div.contenedor p::first-line{
+    font-variant: small-caps;
+    color: red;
+}
+
+div.contenedor p::first-letter{
+    font-size: 1.5em;
+}
+
+div.contenedor p::before{
+    content: "- ";
+}
+
+div.contenedor p::after{
+    content: " -";
+}
+
+----------------------------------------------------- HTML -------------------------------------------
+
+<h1>Selectores Combinados en CSS</h1>
+
+    <div class="contenedor descendiente">
+        Selectores desendientes (en cualquier nivel interno):
+        <p>Primer renglon</p>
+        <p>Segundo selector </p>
+        <section>
+            <p>Tercer selector</p>
+        </section>
+
+    </div>
+    
+    <div class="contenedor hijo">
+        Selectores Hijo (child):
+        <p>Primer renglon</p>
+        <p>Segundo selector </p>
+        <section>
+            <p>Tercer selector</p>
+        </section>
+
+    </div>
+
+    <div class="contenedor adyacentes">
+        Selectores adyacentes:
+        <p>Primer renglon</p>
+    </div>
+        <p>Segundo selector </p>
+        <p>Tercer renglon</p>
+
+       
+        <div class="contenedor hermano">
+            Selectores Hermanos (sibling):
+            <p>Primer renglon</p>
+        </div>
+        <p>Segundo selector </p>
+        <p>Tercer renglon</p>
+
+
+ ---------<h1>Pseudo en CSS</h1>-------
+
+    <div class="contenedor oculto">
+        Pasa por encima
+        <p>Se muestra el parrafo</p>
+    </div>
+
+    <div class="contenedor primer">
+        <p>Primer el parrafo</p>
+        <p>segundo</p>
+    </div>
+
+
+---- <title>Pseudo elemntos en CSS</title>---
+
+ <h1>Pseudo elementos en CSS</h1>
+    <div class="contenedor">
+        <p>Selecciona el texto</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ipsum sint, officiis illo porro sit possimus incidunt doloremque obcaecati dolorem ratione fugit, vitae perferendis modi et facere quae quod ex!
+            
+        </p>
+    </div>

@@ -1,0 +1,213 @@
+ ---------------------------------------------------------------  HTML  ----------------------------------------------------------------------
+ 
+ 
+ 
+ <!-- <title>Centrar los elemntos div</title> -->
+    <!-- <title>Propiedad overflow en css</title> -->
+    <!-- <title>Propiedad flotante es css</title> -->
+
+      <!-- <h1>Propiedad flotante es css</h1>
+
+    <div class="conta flotado conta1">
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Perferendis soluta
+              est explicabo sit modi temporibus magnam
+               porro, at, aliquid dicta ipsum quidem placeat
+                voluptatem molestiae vitae officiis! Illum,
+                 harum sapiente!</p>
+    </div>
+
+    <div class="conta flotado conta2">
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Perferendis soluta
+              est explicabo sit modi temporibus magnam
+               porro, at, aliquid dicta ipsum quidem placeat
+                voluptatem molestiae vitae officiis! Illum,
+                 harum sapiente!</p>
+    </div>
+
+    <div class=" conta conta3">
+        <p>Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Perferendis soluta
+              est explicabo sit modi temporibus magnam
+               porro, at, aliquid dicta ipsum quidem placeat
+                voluptatem molestiae vitae officiis! Illum,
+                 harum sapiente!</p>
+    </div> -->
+
+<!-- 
+        <h1>Propiedad overflow en css</h1>
+        <div class="contenedor">
+            Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Quidem delectus maxime, 
+            culpa illo ut doloribus enim qui neque la
+            boriosam quibusdam magni sit sint suscipit
+             nihil vero recusandae alias possimus quia.
+        </div> -->
+
+        <!-- <h1>Imagen con texto Centrado</h1>
+            <div class="contenedor">
+                <img src="http://globalmentoring.com.mx/imagenes/html5.png" alt="Logo html5"
+                class="imagen">
+
+                <div class="centro">Logo HTML5</div>
+            </div> -->
+
+
+
+
+    <!-- <h1>Centrar elemento div</h1> -->
+
+    <!-- <div class="relative">
+        Div padre relativo
+    <div class="adsoluto">Elementos de tipo  div</div>
+   </div> -->
+
+    <!-- <p>Lorem ipsum dolor sit amet consectetur,
+         adipisicing elit. Odit itaque blanditiis
+          repudiandae, </p>
+             <div>Elementos de tipo div sticky</div> 
+            <!-- <div class="estatico">
+                Elementosno posicionado (static)
+            </div>
+
+            <div class="relative2">
+                segundo elemnto relativo
+                <div class="absoluto">
+                    tercer elemento absoluto
+                </div>
+            </div>
+    <p style="padding-bottom: 2000px ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Earum labore necessitatibus voluptate veritatis non labor
+        um et aspernatur,um?</p> -->
+
+
+
+-----------------------------------------------------------------        css    -------------------------------------------------------------------------
+
+        
+div.conta{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    overflow: auto;
+    
+}
+
+div.conta.flotado{
+    float: left;
+}
+
+div.conta.flotado.conta1{
+    border: 3px dashed greenyellow;
+
+}
+
+div.conta.flotado.conta2{
+    border: 3px dashed cornflowerblue;
+    float: right;
+
+}
+
+div.conta.conta3{
+    clear: both;
+    border: 3px dashed darkorange;
+    margin: auto;
+
+}
+
+/* div.estatico{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+} 
+
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+     height:100px ; este es limitante 
+    margin: auto;
+    overflow: auto;
+     overflow-x: auto;
+    overflow-y: auto; 
+     overflow: scroll; 
+    overflow: hidden; 
+    overflow: visible; 
+}*/
+
+/* 
+img.imagen{
+    width: 100%;
+    opacity: 0.2;
+
+}
+
+div.centro{
+   position: absolute;
+   top: 50%;
+   border: 1px solid blue; 
+   width: 100%;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Sofia', cursive;
+   font-family: 'Trocchi', serif;*/
+
+
+
+
+/* div.relative2{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 112px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+}
+
+
+ */
+
+
+
+
+/* div.relative{
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border: 10px solid cornflowerblue;
+} */
+
+/* div{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: 3px solid firebrick;
+     */
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: absolute; */
+    /* margin: auto; */
+    /* width: 50%; */
+    /* max-width: 400px; */
+
+
+
+------------------------------------------ Types of fonts  --------------------------------------------------------------------
+
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Trocchi&display=swap" rel="stylesheet">

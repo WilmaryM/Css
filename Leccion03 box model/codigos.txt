@@ -1,0 +1,39 @@
+ <div class="divi"><p class="interno">Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Consequatur quia ad nemo optio 
+             perferendis eveniet, fugiat, accusamus nihil
+              reprehenderit facilis eaque porro ipsum odit 
+              explicabo! Ipsum dicta architecto
+               nemo explicabo.</p>
+       </div>
+
+
+/* como heredar propiedades */
+p.interno{
+    margin-left: inherit;
+}
+
+
+.divi{
+   /* arriba(10px)  derecha(15px)  abajo(5px) izquierda(3px)
+    como las manesillas del reloj  */
+    padding: 10px 15px 5px 3px ;
+    border: 1px solid #457b9d;
+
+    /* centrar nuestro contenido */
+    margin-left: 100px;
+
+    background-color: #b1daa3;
+
+    /* ajuste de tamaño */
+    max-width: 300px;
+
+    /* max-height: 100px; */
+
+    
+    /* outline 
+    outline: 10px solid #a8dadc;
+    outline-offset: 10px;
+*/
+    box-sizing: border-box;
+
+}
